@@ -6,7 +6,9 @@ authors = [
     { name = "Litaaya", email = "minhquans2810@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.39.0",
+]
 
 [project.scripts]
 ecommerce-oltp-system-data = "ecommerce_oltp_system_data:main"
