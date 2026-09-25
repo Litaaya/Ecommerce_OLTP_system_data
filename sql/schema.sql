@@ -1,5 +1,3 @@
-SET search_path TO public;
-
 -- 1. BRAND
 CREATE TABLE brand (
     brand_id SERIAL PRIMARY KEY,
